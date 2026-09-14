@@ -1,0 +1,28 @@
+{
+  "name": "enginnering_forum_website",
+  "version": "1.0.0",
+  "description": "This includes designing and developing the web pages dedicated to the engineering recipient section. The work covers creating a structured layout, defining user interactions, and ensuring a professional, responsive interface that aligns with the overall website design and user experience standards.",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "main"
+  },
+  "keywords": [
+    "Enginnering",
+    "Meet"
+  ],
+  "author": "Ekramy Mohamed",
+  "license": "ISC",
+  "devDependencies": {
+    "chokidar-cli": "^3.0.0",
+    "rtlcss": "^4.3.0"
+  },
+  "dependencies": {
+    "boostrap": "^2.0.0",
+    "bootstrap": "^5.3.8"
+  }
+}

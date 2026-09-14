@@ -1,0 +1,59 @@
+#contact {
+    background-color: #F3F3F3;
+}
+.apttern {
+    background: url(../images/pattern-02.svg);
+    background-repeat: repeat-x;
+    height: 26px;
+
+}
+section#forum{
+    background-color: white;
+    margin: 25px 0 !important;
+}
+    .contact-card {
+      border: 1px solid #dee2e6;
+      border-radius: 16px;
+      background-color: #fff;
+      padding: 2rem;
+      max-width: 400px;
+    }
+    .contact-item i {
+      color: #198754;
+      font-size: 1.2rem;
+      margin-left: 6px;
+    }
+    .contact-item a {
+      color: #198754;
+      text-decoration: none;
+    }
+    .contact-item a:hover {
+      text-decoration: underline;
+    }
+    .divider {
+      border-top: 1px solid #dee2e6;
+      margin: 1.5rem 0;
+    }
+    .social-icons i {
+      font-size: 1.3rem;
+      color: #212529;
+      margin-left: 12px;
+      cursor: pointer;
+    }
+    .social-icons i:hover { color: #198754; }
+    .section-title {
+      font-weight: 700;
+      color: #212529;
+      margin-bottom: .75rem;
+    }
+
+    .contact-hero-section {
+            background:url(../images/contact.png)   center center / cover no-repeat;      
+            height: calc(50vh);
+            position: relative;
+}
+.bridge-hero-section2 {
+  background: url(../images/bridge-banner.png) center center / cover no-repeat;       
+  height: calc(50vh);
+  position: relative;
+}

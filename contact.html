@@ -1,0 +1,405 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+   
+    <title>Enginnering</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".hackathon-nav" data-bs-offset="80" tabindex="0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl fixed-top bg-light">
+        <div class="container position-relative">
+
+            <a href="index.html" class="navbar-brand">
+                <img src="images/PSAU-Logo.svg" alt="">
+                <img src="images/EF-logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler"
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavDropDown" 
+            aria-controls="navbarNavDropDown" 
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+            <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                    <a href="index.html#about" class="nav-link" aria-current="page">عن الملتقي</a>
+                </li>
+                      <li class="nav-item  dropdown position-static">
+                         <a href="#" class="nav-link dropdown-toggle" id="servicesDropdown"   data-bs-toggle="dropdown" aria-current="page">المسابقات</a>
+                        <div class="dropdown-menu w-100 border-0 rounded-0 shadow-sm bg-light" aria-labelledby="competitionsDropdown">
+                            <div class="container py-4 text-end">
+                            <div class="row g-5 align-items-center sub-menu-drop">
+                                <div class="col-md-12">
+                               
+                                <img src="images/h1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                                 <a href="hakaton.html" class="fw-bold fs-5 px-5 custom-btn">هاكاثون حلول البناء المستدام</a>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <img src="images/b1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                                    <a href="bridge-design-competition.html" class="fw-bold fs-5 px-5 custom-btn">مسابقة تصميم الجسور</a>
+                                      
+                                </div>
+                            </div>
+                            </div>
+                           
+                        </div>
+                       
+                    </li>
+                </li>
+                      <li class="nav-item">
+                    <a href="emerging_technologies_txhibition.html" class="nav-link" aria-current="page">معرض التقنيات</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="events.html" class="nav-link" aria-current="page">الفعاليات</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#awards" class="nav-link" aria-current="page">الجوائز</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#faq" class="nav-link" aria-current="page">اسئلة شائعة</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="contact.html" class="nav-link" aria-current="page">تواصل معنا</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center align-items-lg-center"> 
+                    <img src="images/translate.svg" alt="">
+                    <a href="#"  class="nav-link">English</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Main Hero-->
+     <section class="contact-hero-section text-white d-flex align-items-center">
+  <div class="container text-end">
+    <h1 class="fw-bold mb-4 header-main">تواصل معنا</h1>
+
+  </div>
+
+</section>
+
+<!-- About -->
+   <section id="contact">
+    <div class="container">
+        <div class="row my-6">
+            <div class="col-lg-9 col-md8 col-sm-12">
+                <h3 class="text-primary fs-3 fw-bold">تواصل معنا</h3>
+                <p>تواصل معنا لأي استفسار أو مساعدة، فريق الملتقى الهندسي جاهز لدعمك والإجابة عن جميع تساؤلاتك.</p>
+            </div>
+            <div class="col-lg-3 col-md4 col-sm-12">
+                <div class="card py-3">
+                    <p class="text-center">مشاركة الصفحة</p>
+                    <div class="d-flex flex-row m-auto">
+                        <a href="#" class="mx-2"><img src="images/icons/whatsapp.svg" alt=""></a>
+                        <a href="#" class="mx-2"><img src="images/icons/facebook-02.svg" alt=""></a>
+                        <a href="#" class="mx-2"><img src="images/icons/linkedin-02.svg" alt=""></a>
+                        <a href="#" class="mx-2"><img src="images/icons/new-twitter.svg" alt=""></a>
+                    
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="apttern mb-5"></div>
+  </section>
+  <!--forum -->
+<section id="forum" class="py-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 col-md-8 col-sm-12">
+                <!-- form -->
+                    <form class="row g-4">
+                        <!-- الاسم الأول -->
+                        <div class="col-md-6">
+                            <label for="firstName" class="form-label">الاسم الأول <span class="text-danger">*</span></label>
+                            <input type="text" id="firstName" class="form-control" placeholder="ادخل الاسم الأول">
+                        </div>
+
+                        <!-- الاسم الأخير -->
+                        <div class="col-md-6">
+                            <label for="lastName" class="form-label">الاسم الأخير <span class="text-danger">*</span></label>
+                            <input type="text" id="lastName" class="form-control" placeholder="ادخل الاسم الأخير">
+                        </div>
+
+                        <!-- البريد الإلكتروني -->
+                        <div class="col-md-6">
+                            <label for="email" class="form-label">البريد الإلكتروني <span class="text-danger">*</span></label>
+                            <input type="email" id="email" class="form-control" placeholder="ادخل البريد الإلكتروني">
+                        </div>
+
+                        <!-- رقم الجوال -->
+                        <div class="col-md-6">
+                            <label for="phone" class="form-label">رقم الجوال <span class="text-danger">*</span></label>
+                            <div class="input-group">
+                            <span class="input-group-text mx-2">+966</span>
+                            <input type="text" id="phone" class="form-control" placeholder="5* *** ****">
+                            </div>
+                        </div>
+
+                        <!-- الفئة -->
+                        <div class="col-md-6">
+                            <label for="category" class="form-label">الفئة</label>
+                            <select id="category" class="form-select">
+                            <option selected>اقتراحات</option>
+                            <option>استفسارات</option>
+                            <option>دعم فني</option>
+                            </select>
+                        </div>
+
+                        <!-- الموضوع -->
+                        <div class="col-md-6">
+                            <label for="subject" class="form-label">موضوع</label>
+                            <input type="text" id="subject" class="form-control" placeholder="اكتب موضوعك">
+                        </div>
+
+                        <!-- رفع الملفات -->
+                        <div class="col-md-6">
+                            <label class="form-label">رفع المرفقات</label>
+                            <p class="text-muted small">
+                            الحد الأقصى لحجم الملف المسموح به هو 2 ميجابايت، وصيغ الملفات المدعومة تشمل .jpg و .png و .pdf
+                            </p>
+                            <input class="form-control" type="file" id="formFile">
+                        </div>
+
+                        <!-- كيف يمكننا المساعدة -->
+                        <div class="col-md-6">
+                            <label for="message" class="form-label">كيف يمكننا المساعدة؟</label>
+                            <textarea id="message" rows="4" class="form-control" placeholder="نص تلخيصي"></textarea>
+                        </div>
+
+                        <!-- زر الإرسال -->
+                        <div class="col-12 text-end my-2">
+                            <button type="submit" class="btn btn-success text-white rounded-4">إرسال</button>
+                        </div>
+
+    </form> 
+                <!-- Form end -->
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-12">
+                
+    <div class="contact-card">
+
+      <!-- تواصل مع آمر -->
+      <h5 class="section-title">تواصل مع آمر</h5>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-telephone"></i>رقم الجوال</div>
+        <a href="tel:92000343222">92000343222</a>
+      </div>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-chat-dots"></i>رسالة قصيرة</div>
+        <a href="#">199099</a>
+      </div>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-envelope"></i>البريد الإلكتروني</div>
+        <a href="mailto:help@company.sa">help@company.sa</a>
+      </div>
+
+      <div class="contact-item mb-2">
+        <div class="fw-semibold"> <i class="bi bi-printer"></i>فاكس</div>
+        <a href="#">00966-11-434-6654</a>
+      </div>
+
+      <div class="contact-item mb-3">
+        <div class="fw-semibold"> <i class="bi bi-geo-alt"></i>الموقع</div>
+        <a href="#">الرياض</a>
+      </div>
+
+      <div class="fw-semibold mb-2">تابعنا على</div>
+      <div class="social-icons mb-3">
+        <i class="bi bi-twitter-x"></i>
+        <i class="bi bi-linkedin"></i>
+        <i class="bi bi-instagram"></i>
+      </div>
+
+      <div class="divider"></div>
+
+      <!-- اتصالات الطوارئ -->
+      <h6 class="section-title">اتصالات الطوارئ</h6>
+      <div class="contact-item mb-1">
+        <div class="fw-semibold">الدفاع المدني</div>
+        <a href="tel:988">988</a>
+      </div>
+      <div class="contact-item mb-1">
+        <div class="fw-semibold">الشرطة</div>
+        <a href="tel:999">999</a>
+      </div>
+      <div class="contact-item mb-2">
+        <div class="fw-semibold">الإسعاف</div>
+        <a href="tel:997">997</a>
+      </div>
+      <a href="#" class="text-success fw-semibold small">عرض المزيد</a>
+
+    </div>
+ 
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 " id="footer">
+    <div class="container text-white">
+      <div class="row m-0 g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">منصتي</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/psau-establishment" target="_blank">عن
+                الجامعة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/academic-calendar" target="_blank">التقويم
+                الأكاديمي</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/almnafsat-alhkwmyt" target="_blank">المنافسات
+                الحكومية</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/movables-platform" target="_blank">منصة
+                منقولات</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/alwthayq-altnzymyt-0" target="_blank">الوثائق
+                التنظيمية</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">روابط مهمة</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/relatedlinks" target="_blank">مواقع ذات
+                صلة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/introduction" target="_blank">البيانات
+                المفتوحة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/portal-policy" target="_blank">سياسة
+                البوابة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/terms-use-and-privacy-policy"
+                target="_blank">شروط الاستخدام وسياسة الخصوصية</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">الاتصال والدعم</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://tawasol.psau.edu.sa/" target="_blank">تواصل معنا</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://jobs.psau.edu.sa/" target="_blank">التوظيف</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/dlyl-aljamt" target="_blank">دليل الجامعة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/alasylt-alshayt" target="_blank">الأسئلة
+                الشائعة</a>
+            </li>
+          </ul>
+        </div>
+        <div class="followUs col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">تابعنا على</h5>
+          <ul class="list-unstyled mt-3 d-flex gap-2">
+            <li class="rounded">
+              <a href="https://www.facebook.com/PSAUuniversity" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.youtube.com/user/sauedusa" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.snapchat.com/add/psau.edu/uQCyv1YwRb6gtRaw8bkD8gAAgdGFtZWFyYW9jAZEIc6SFAZEIc6NjAAAAAA"
+                target="_blank" class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-snapchat"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://x.com/psau_edu_sa" target="_blank" class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.instagram.com/psau_edu_sa/" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="acceptability mt-5">
+            <h5 class="pb-2" data-translate="acceptabilityToolsTitle">أدوات الاتاحة والوصول</h5>
+            <ul class="list-unstyled mt-3 d-flex gap-2">
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-hand-index"></i>
+              </li>
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-zoom-in"></i>
+              </li>
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-eye"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-5 gy-3">
+        <div class="col-12 col-md-6">
+          <ul class="list-unstyled d-flex gap-2 flex-wrap mb-3">
+            <li><a href="">خريطة الموقع</a></li>
+            <li><a href=""> RSS</a></li>
+          </ul>
+          <p class="bold fw-bold">جميع الحقوق محفوظة لجامعة الأمير سطام بن عبد العزيز © 2024</p>
+          <p class="small pt-2 pb-2"> تم تطويره وصيانته بواسطة [الإدارة العامة لتقنية المعلومات]</p>
+
+          <p class="small mt-3">تاريخ آخر تعديل:
+            <script>
+              const date = new Date();
+              const formattedDate =
+                `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`;
+              document.write(formattedDate);
+            </script>
+          </p>
+        </div>
+        <div
+          class="logos col-12 col-md-6 d-flex gap-3 flex-wrap justify-content-center justify-content-md-end align-items-center">
+          <img src="images/2030-vision.svg" alt="رؤية 2030" class="" />
+          <img src="images/logo2.svg" alt="SVGLogo" />
+         </div>
+      </div>
+    </div>
+  </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

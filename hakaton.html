@@ -1,0 +1,599 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+   
+    <title>Enginnering</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".hackathon-nav" data-bs-offset="80" tabindex="0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl fixed-top bg-light">
+        <div class="container position-relative">
+
+            <a href="index.html" class="navbar-brand">
+                <img src="images/PSAU-Logo.svg" alt="">
+                <img src="images/EF-logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler"
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavDropDown" 
+            aria-controls="navbarNavDropDown" 
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+            <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                    <a href="index.html#about" class="nav-link" aria-current="page">عن الملتقي</a>
+                </li>
+                      <li class="nav-item  dropdown position-static">
+                    <a href="#" class="nav-link dropdown-toggle" id="servicesDropdown"   data-bs-toggle="dropdown" aria-current="page">المسابقات</a>
+          
+                        <div class="dropdown-menu w-100 border-0 rounded-0 shadow-sm bg-light" aria-labelledby="competitionsDropdown">
+                            <div class="container py-4 text-end">
+                            <div class="row g-5 align-items-center sub-menu-drop">
+                                <div class="col-md-12">
+                               
+                                <img src="images/h1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                                 <a href="hakaton.html" class="fw-bold fs-5 px-5 custom-btn">هاكاثون حلول البناء المستدام</a>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <img src="images/b1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                                    <a href="bridge-design-competition.html" class="fw-bold fs-5 px-5 custom-btn">مسابقة تصميم الجسور</a>
+                                      
+                                </div>
+                            </div>
+                            </div>
+                           
+                        </div>
+                       
+                    </li>
+                </li>
+                      <li class="nav-item">
+                    <a href="emerging_technologies_txhibition.html" class="nav-link" aria-current="page">معرض التقنيات</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="events.html" class="nav-link" aria-current="page">الفعاليات</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#awards" class="nav-link" aria-current="page">الجوائز</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#faq" class="nav-link" aria-current="page">اسئلة شائعة</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="contact.html" class="nav-link" aria-current="page">تواصل معنا</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center align-items-lg-center"> 
+                    <img src="images/translate.svg" alt="">
+                    <a href="#"  class="nav-link">English</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Main Hero-->
+     <section class="hackathon-hero-section text-white d-flex align-items-center">
+  <div class="container text-end">
+    <h1 class="fw-bold mb-4 header-main">هاكثون حلول البناء المستدام</h1>
+    <div class="d-flex gap-3 justify-content-start flex-wrap">
+      <a href="#" class="btn btn-success fs-6 px-4 py-2 text-light">انضم للهاكثون</a>
+    </div>
+  </div>
+</section>
+ <!-- Secondary Navigation -->
+<nav class="hackathon-nav py-3">
+  <div class="container d-flex flex-wrap justify-content-center gap-4">
+    <a href="#about" class="nav-link fw-bold text-success border-bottom border-3 border-warning pb-1">
+      عن الهاكثون
+    </a>
+    <a href="#goals" class="nav-link text-secondary">الأهداف</a>
+    <a href="#target" class="nav-link text-secondary">الفئة المستهدفة</a>
+    <a href="#tracks" class="nav-link text-secondary">مسارات الهاكثون</a>
+    <a href="#awards" class="nav-link text-secondary">الجوائز</a>
+    <a href="#rules" class="nav-link text-secondary">الشروط والإحكام</a>
+    <a href="#criteria" class="nav-link text-secondary">معايير التحكيم</a>
+    <a href="#timeline" class="nav-link text-secondary">الجدول الزمني</a>
+    <a href="#subscribe" class="btn btn-outline-success">اشترك الآن</a>
+  </div>
+</nav>
+<!-- About -->
+ <section class="bg-ligh  my-md-5" id="about">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 col-sm-12 d-flex justify-content-center align-content-center my-sm-3">
+                <img src="images/hakathon/about-hakathon.png"  width="385">
+            </div>
+            <div class="col-md-8  col-sm-12  fs-6 fw-normal">
+              <h3 class="fw-medium fs-5 text-primary"> عن هاكثون حلول البناء المستدام </h3>
+           <p class="tetx-justify">ننظم عمادة شؤون الطلاب بالتعاون مع كلية الهندسة بالجامعة هاكثون "حلول البناء المستدام"، والذي يستهدف طلاب الجامعات السعودية لتحفيزهم على تقديم أفكار وحلول مبتكرة تسهم في تطوير قطاع البناء بما يتوافق مع مبادئ الاستدامة البيئية. يهدف الهاكاثون إلى تمكين الطلاب من توظيف معارفهم ومهاراتهم الأكاديمية في تصميم حلول واقعية لمعالجة التحديات البيئية المرتبطة بقطاع البناء، وتعزيز ثقافة الاستدامة في المشاريع العمرانية المستقبلية. كما يُعد الهاكاثون فرصة لتعزيز روح العمل الجماعي, والتفكير التصميمي, وريادة الأعمال بين الطلاب، من خلال تجربة عملية تفاعلية تمتد لعدة أيام. من خلال هذا الحدث, تسعى الجامعة تمكين الجيل القادم من المهندسين والمبدعين للمساهمة الفاعلة في تحقيق رؤية المملكة 2030، لاسيما في مجال المدن والمجتمعات</p>
+            </div>
+
+        </div>
+    </div>
+ </section>
+
+ <!-- Marquee -->
+  <section class="">
+        <div class="container-fluid  py-3 overflow-hidden">
+
+    <div class="marquee-container">
+        <div class="marquee-track">
+          <span>الإبداع والهندسة والتقنية… معادلة نبتكر بها مستقبل البناء</span>
+          <span>الإبداع والهندسة والتقنية… معادلة نبتكر بها مستقبل البناء</span>
+        </div>
+    </div>
+    </div>
+</section>
+
+ <!-- goals -->
+  <section id="goals">
+    <div class="container">
+      <h3 class="text-primary fw-bold fs-4 text-center txt-underline mb-4 w-25">إهداف الهاكثون</h3>
+
+              <div class="row d-flex">
+              <div class="col-lg-3 col-md-6 col-sm-1 d-flex flex-column">
+                    <div class="card mb-4 w-100 h-100">
+                      <div class="card-body ">
+                          <i><img src="images/hakathon/innovation.svg" alt=""></i>
+                          <h5 class="card-title py-lg-2">تحفيز الابتكار</h5>
+                          <p class="card-text">في مجال التقنيات الناشئة لأساليب البناء المستدام.</p> 
+                      </div>
+                      </div>
+                    <div class="card mb-4 w-100 h-100" >
+                      <div class="card-body ">
+                          <i><img src="images/hakathon/innovation.svg" alt=""></i>
+                          <h5 class="card-title py-lg-2">دعم تطوير حلول قابلة للتطبيق</h5>
+                          <p class="card-text">تقلل من استهلاك الطاقة والمياه وتحدّ من النفايات في قطاع البناء،</p>
+                      </div>
+                      </div>
+                 </div>
+                <div class="col-lg-3 col-md-6  col-sm-1 d-none d-lg-flex">
+                      <img src="images/hakathon/h1.png" alt="" class=" mx-auto d-block img-center img-fluid" >
+                  </div>
+                  <div class="col-lg-3 col-md-6 col-sm-1 d-flex flex-column">
+                    <div class="card mb-4 w-100 h-100"">
+                      <div class="card-body ">
+                          <i><img src="images/hakathon/innovation.svg" alt=""></i>
+                          <h5 class="card-title py-lg-2">رفع الوعي</h5>
+                          <p class="card-text">بأهمية الاستدامة البيئية</p> 
+                      </div>
+                      </div>
+                    <div class="card mb-4 w-100 h-100" >
+                      <div class="card-body ">
+                          <i><img src="images/hakathon/innovation.svg" alt=""></i>
+                          <h5 class="card-title py-lg-2">تمكين المواهب المحلية</h5>
+                          <p class="card-text">وربطهم بجهات حكومية وخاصة مهتمة بالتطوير العمراني المستدام.
+</p>
+                      </div>
+                      </div>
+                 </div>
+                <div class="col-lg-3 col-md-6 col-sm-1 d-none d-lg-flex">
+                      <img src="images/hakathon/h2.png" alt="" class=" mx-auto d-block img-center img-fluid" >
+                  </div>
+      </div>
+  
+    </div>
+
+  </div>
+
+  </section>
+  <!-- target -->
+   <section id="target">
+    <div class="container bg-primary rounded-3 my-4">
+      <div class="row p-3">
+        <div class="col-lg-6 col-md-12 d-flex justify-content-center align-items-center">
+          <h3 class="text-white fs-4">الفئة المستهدفة</h3>
+          <img src="images/hakathon/arrow-y.svg" width="70"  class="px-3 d-block " alt="">
+          <p class="text-white ">طلاب وطالبات الجامعات السعودية </p>
+          <img src="images/hakathon/saudia-flag.png" class="px-3" alt="">
+        </div>
+        <div class="col-6 col-md-12"></div>
+      </div>
+    </div>
+   </section>
+
+   <!-- tracks -->
+    <section id="tracks">
+      <div class="container">
+        <div class="row d-flex">
+          <div class="col-4 p-4">
+            <img src="images/hakathon/route-02.svg" class="py-3"  alt="">
+            <h5 class="text-primary fw-medium">مسارات الهاكثون</h5>
+            <p>مساراتنا ليست طرقًا تقليدية، بل محطات للإلهام والتجديد</p>
+          </div>
+          <div class="col-4">
+            <span class="text-black d-block py-2  fs-6 fw-medium">المسار الأول</span>
+            <h4 class="fw-bold fs-6 text-primary py-2">الهندسة الخضراء في البناء </h4>
+            <p class="w-75 text-black">تطوير حلول أو منتجات في البناء تسهم في تعزيز الاستدامة البيئية.</p>
+            <img src="images/hakathon/h3.png" alt="">
+          </div>
+        
+            <div class="col-4">
+              <img src="images/hakathon/h4.png" alt="">
+              <span class="text-black d-block py-2 fs-6 fw-medium">المسار الثاني</span>
+              <h4 class="fw-bold fs-6 text-primary py-2">الذكاء الاصطناعي في البناء </h4>
+              <p class="w-75 text-black">استخدام الذكاء الاصطناعي لتحسين كفاءة</p>
+            
+          </div>
+        </div>
+      </div>
+
+    </section>
+    <!-- awards -->
+ <!-- Awards -->
+ <!-- <section id="awards">
+
+ </section> -->
+
+ <section class="video-background position-relative overflow-hidden my-5" id="awards">
+  <!-- فيديو الخلفية -->
+  <video autoplay muted loop playsinline class="w-100 h-100 position-absolute top-0 start-0 object-fit-cover" style="height: 645.6px;">
+    <source src="images/video/video-bg.mp4" type="video/mp4">
+    متصفحك لا يدعم تشغيل الفيديو.
+  </video>
+
+  <!-- المحتوى فوق الفيديو -->
+  <div class="container position-relative text-white py-5 text-center">
+    <h2 class="fw-bold mb-3 fs-1 fw-bold">الجوائز</h2>
+    <p class="lead mb-4">تكريم أبرز الحلول الابتكارية التي تجسد روح الإبداع في الملتقى الهندسي.</p>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+             <div class="glass-card p-4 rounded-4 text-white text-center mx-auto w-100 w-md-25 w-lg-25 " " style="min-height:350px;">
+                <img src="images/hakathon-icon.svg" alt="" class="my-3">
+                <h4 class="fw-bold mb-3 fs-5">جوائز هاكثون حلول البناء المستدام</h4>
+                <ul class="list-unstyled mb-0">
+                <li>المركز الأول — 10.000 ﷼</li>
+                <li>المركز الثاني — 6.000 ﷼</li>
+                <li>المركز الثالث — 4.000 ﷼</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+  </div>
+</section>
+  <!-- rules -->
+    <section id="rules">
+      <div class="container">
+        <div class="row">
+          <div class="col-8">
+                       <div class="card mb-4 w-100 h-100">
+                      <div class="card-body ">
+                          <h5 class="card-title py-lg-4 my-3 text-primary txt-underline ">الشروط والإحكام </h5>
+                         <ul class=" lh-lg list-checked">
+                          <li class="">لكل الجامعة المشاركة بفرق مكوّنة من طالبين إلى أربع طلاب بحد أقصى.</li>
+                          <li>يكون قائد الفريق سعودي الجنسية.</li>
+                          <li>بسمح لكل جامعة المشاركة بأكثر من فريق في كلا المسارين.</li>
+                          <li>يقدم كل فريق مقترح للأفكار أو المشاريع (بحد أقصى 100 كلمة) مصاحباً لنموذج التسجيل، ويتم تبليغ الفرق باعتماد المشاركة بناءً على ذلك.</li>
+                          <li>خلال فترة الهاكثون، يطلب من كل فريق تقديم نموذج أولي (Prototype) أو تصور تفصيلي أو محاكاة للفكرة أو المشروع.</li>
+                          <li>بجب على كل فريق تقديم عرض تقديمي (PowerPoint أو PDF) وعرضه على لجنة التحكيم لمناقشة المنتج النهائي.</li>
+                          <li>نستقبل جميع النماذج والمشاركات عن طريق ضابط الاتصال للجامعة المشاركة فقط, ونعتذر عن استقبال أي مشاركات أخرى.</li>
+                         </ul>
+                      </div>
+                      </div>
+          </div>
+          <div class="col-4" id="criteria">
+            <div class="card mb-4 w-100 h-100 bg-primary card-wm">
+              <div class="card-body ">
+                <h5 class="py-lg-4 my-3 text-white txt-underline">معايير التحكيم</h5>
+                <ul class=" lh-lg text-white py-2">
+                  <li>الأصالة والابتكار في الفكرة المقدمة</li>
+                  <li>قابلية تطبيق الفكرة المقدمة.</li>
+                  <li>الأثر الاجتماعي والاقتصادي الناتج عن الفكرة المقدمة</li>
+                  <li>العرض التقديمي.</li>
+                  <li>اارتباط الفكرة بأبعاد مسارات المسابقة</li>
+                  <li>الأثر البيئي والاستدامة.</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  <!-- timeline -->
+   <section class="position-relative overflow-hidden my-5" id="timeline" dir="rtl">
+  <div class="container">
+    <div class="card overflow-hidden rounded-4 position-relative">
+
+      <!-- فيديو الخلفية -->
+      <div class="video-background-2 position-absolute top-0 start-0 w-100 h-100 rounded-4 overflow-hidden">
+        <video autoplay muted loop playsinline class="w-100 h-100 object-fit-cover rounded-4">
+          <source src="images/video/eng.mp4" type="video/mp4">
+          متصفحك لا يدعم تشغيل الفيديو.
+        </video>
+      </div>
+
+      <!-- محتوى الجدول الزمني -->
+      <div class="content position-relative z-3 text-white p-4">
+
+        <h2 class="text-center text-white fs-1 fw-bolder m-5">الجدول الزمني للهاكثون</h2>
+
+        <div class="timeline position-relative mx-auto" style="max-width: 900px;">
+          <!-- الخط الذهبي في المنتصف -->
+          <div class="position-absolute top-0 start-50 translate-middle-x h-100"
+               style="width: 3px; background: linear-gradient(to top, #f5c85c, #cfa93c);">
+          </div>
+
+          <!-- البطاقة 1 -->
+            <div class="timeline-item position-relative d-flex justify-content-start mb-3">
+            <div class="glass-card p-4 rounded-4 text-white text-end position-relative" style="width:48%">
+              <h5 class="fw-normal mb-2 fs-6 bg-dark d-inline-block px-3 py-1 rounded card-position">مرحلة التسجيل</h5>
+              <p class="mb-1 mt-3 fs-6">
+                <img src="images/date.svg" alt="" class="px-1">من 1/2/2026م إلى 1/3/2026م
+              </p>
+              <p class="small mb-2">
+                تكوين الفرق وإرسال نموذج التسجيل مرفقاً به مقترح الأفكار والمشاريع (بحد أقصى 100 كلمة).
+              </p>
+              <div class="text-start mt-2">
+                <span class="badge bg-dark bg-secondary px-3 py-1">منتهي</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- البطاقة 2 -->
+            <div class="timeline-item position-relative d-flex justify-content-end mb-3">
+            <div class="glass-card p-4 rounded-4 text-white text-end position-relative" style="width:48%">
+              <h5 class="fw-normal mb-2 fs-6 bg-primary d-inline-block px-3 py-1 rounded card-position">ورش العمل الافتراضية</h5>
+              <p class="mb-1 mt-3 date-text">
+                <img src="images/date.svg" alt="" class="px-1">من 1/2/2026م إلى 1/3/2026م
+              </p>
+              <div class="text-start mt-2">
+                <span class="badge bg-primary  px-3 py-1">قادم</span>
+              </div>
+            </div>
+          </div>
+          <!-- البطاقة 3 -->
+          <div class="timeline-item position-relative d-flex justify-content-start mb-3">
+            <div class="glass-card p-4 rounded-4 text-white text-end position-relative" style="width:48%">
+              <h5 class="fw-normal mb-2 fs-6 bg-primary d-inline-block px-3 py-1 rounded card-position">ﺇﻋﻼﻥ ﺍﻟﻤﺘﺄﻫﻠﻴﻦ </h5>
+              <p class="mb-1 mt-3 date-text">
+                <img src="images/date.svg" alt="" class="px-1">من 1/2/2026م إلى 1/3/2026م
+              </p>
+              <div class="text-start mt-2">
+                <span class="badge bg-primary px-3 py-1">منتهي</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- البطاقة 4 -->
+                 <div class="timeline-item position-relative d-flex justify-content-end mb-3">
+            <div class="glass-card p-4 rounded-4 text-white text-end position-relative" style="width:48%">
+              <h5 class="fw-normal mb-2 fs-6 bg-primary d-inline-block px-3 py-1 rounded card-position">ايام الهاكاتون</h5>
+              <p class="mb-1 mt-3 fs-6">
+                <img src="images/date.svg" alt="" class="px-1">من 1/2/2026م إلى 1/3/2026م
+              </p>
+              <div class="text-start mt-2">
+                <span class="badge bg-primary px-3 py-1">منتهي</span>
+              </div>
+            </div>
+          </div>
+          <!-- البطاقة 5 -->
+          <div class="timeline-item position-relative d-flex justify-content-start">
+            <div class="glass-card p-4 rounded-4 text-white text-end position-relative" style="width:48%">
+              <h5 class="fw-normal mb-2 fs-6 bg-danger d-inline-block px-3 py-1 rounded card-position">إعلان الفائزين</h5>
+              <p class="mb-1 mt-3">15/5/2026م</p>
+              <span class="badge bg-success px-3 py-1">قادم</span>
+            </div>
+          </div>
+        </div>
+
+        <p class="text-center mt-5 text-white">انطلق الآن وشارك في صناعة مستقبل أكثر ذكاء!</p>
+
+      </div>
+    </div>
+  </div>
+</section>
+<!-- end time line-->
+  <!-- subscribe -->
+    <section id="subscribe my-3">
+      <div class="container my-3">
+        <div class="row d-flex">
+          <div class="col-12 ">
+            <div class="card text-center py-5 d-flex justify-content-center ">
+              <div class="card-body">
+                  <h2 class="text-primary fw-bold fs-1">اشترك في الهاكثون</h2>
+                  <h3>فريقك، فكرتك، إنجازك… شارك الآن!</h3>
+                  <p class="fw-medium">أشترك الآن واحصل علي جائزة من جوائز هاكثون حلول البناء المستدام</p>
+                <div class="w-25 mx-auto ">
+                  <!-- 3 -->
+            <div class="d-flex justify-content-around align-items-end my-5" style="height: 250px;">
+                      <!-- المركز الأول -->
+              <div class="text-center">
+                <div class="bg-success" style="height: 180px; width: 50px; border-radius: 8px;"></div>
+                <p class="mt-2 mb-0">₺ 10.000</p>
+                <small>المركز الأول</small>
+              </div>
+            <!-- المركز الثاني -->
+              <div class="text-center">
+                <div class="bg-blue" style="height: 120px; width: 50px; border-radius: 8px;"></div>
+                <p class="mt-2 mb-0">₺ 6.000</p>
+                <small>المركز الثاني</small>
+              </div>
+              <!-- المركز الثالث -->
+              <div class="text-center">
+                <div class="bg-pruble" style="height: 60px; width: 50px; border-radius: 8px;"></div>
+                <p class="mt-2 mb-0">₺ 4.000</p>
+                <small>المركز الثالث</small>
+              </div>
+
+       
+
+      
+            </div>
+
+            <div class="text-center mt-4">
+              <a href="#subscribe" class="btn btn-primary fw-bold text-white">اشترك في الهاكثون الآن</a>
+            </div>
+    
+                   <!-- 3 emd -->
+                </div>
+              </div>
+            </div>
+       
+          </div>
+        </div>
+      </div>
+    </section>
+<!-- Footer -->
+<footer class="py-6 " id="footer">
+    <div class="container text-white">
+      <div class="row m-0 g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">منصتي</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/psau-establishment" target="_blank">عن
+                الجامعة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/academic-calendar" target="_blank">التقويم
+                الأكاديمي</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/almnafsat-alhkwmyt" target="_blank">المنافسات
+                الحكومية</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/movables-platform" target="_blank">منصة
+                منقولات</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/alwthayq-altnzymyt-0" target="_blank">الوثائق
+                التنظيمية</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">روابط مهمة</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/relatedlinks" target="_blank">مواقع ذات
+                صلة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/introduction" target="_blank">البيانات
+                المفتوحة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/portal-policy" target="_blank">سياسة
+                البوابة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/terms-use-and-privacy-policy"
+                target="_blank">شروط الاستخدام وسياسة الخصوصية</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">الاتصال والدعم</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://tawasol.psau.edu.sa/" target="_blank">تواصل معنا</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://jobs.psau.edu.sa/" target="_blank">التوظيف</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/dlyl-aljamt" target="_blank">دليل الجامعة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/alasylt-alshayt" target="_blank">الأسئلة
+                الشائعة</a>
+            </li>
+          </ul>
+        </div>
+        <div class="followUs col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">تابعنا على</h5>
+          <ul class="list-unstyled mt-3 d-flex gap-2">
+            <li class="rounded">
+              <a href="https://www.facebook.com/PSAUuniversity" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.youtube.com/user/sauedusa" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.snapchat.com/add/psau.edu/uQCyv1YwRb6gtRaw8bkD8gAAgdGFtZWFyYW9jAZEIc6SFAZEIc6NjAAAAAA"
+                target="_blank" class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-snapchat"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://x.com/psau_edu_sa" target="_blank" class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.instagram.com/psau_edu_sa/" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="acceptability mt-5">
+            <h5 class="pb-2" data-translate="acceptabilityToolsTitle">أدوات الاتاحة والوصول</h5>
+            <ul class="list-unstyled mt-3 d-flex gap-2">
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-hand-index"></i>
+              </li>
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-zoom-in"></i>
+              </li>
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-eye"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-5 gy-3">
+        <div class="col-12 col-md-6">
+          <ul class="list-unstyled d-flex gap-2 flex-wrap mb-3">
+            <li><a href="">خريطة الموقع</a></li>
+            <li><a href=""> RSS</a></li>
+          </ul>
+          <p class="bold fw-bold">جميع الحقوق محفوظة لجامعة الأمير سطام بن عبد العزيز © 2024</p>
+          <p class="small pt-2 pb-2"> تم تطويره وصيانته بواسطة [الإدارة العامة لتقنية المعلومات]</p>
+
+          <p class="small mt-3">تاريخ آخر تعديل:
+            <script>
+              const date = new Date();
+              const formattedDate =
+                `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`;
+              document.write(formattedDate);
+            </script>
+          </p>
+        </div>
+        <div
+          class="logos col-12 col-md-6 d-flex gap-3 flex-wrap justify-content-center justify-content-md-end align-items-center">
+          <img src="images/2030-vision.svg" alt="رؤية 2030" class="" />
+          <img src="images/logo2.svg" alt="SVGLogo" />
+         </div>
+      </div>
+    </div>
+  </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

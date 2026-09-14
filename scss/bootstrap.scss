@@ -1,0 +1,73 @@
+// Font
+$font-family-sans-serif: "IBM Plex Sans Arabic" , sans-serif;
+$font-size-root: 18px;
+
+// colors
+$primary:#079455;
+$secondary: #4D4D4D;
+$warning:#F2D700;
+$dark:#262626;
+$body-bg: #F3F3F3; 
+$body-color: $dark;
+$success:#079455;
+$black:#000;
+
+// spacer
+$spacer: 1rem !default;
+$spacers: (
+  0: 0,
+  1: $spacer * .25,
+  2: $spacer * .5,
+  3: $spacer,
+  4: $spacer * 1.5,
+  5: $spacer * 3,
+  6: $spacer * 6,
+  7: $spacer * 8,
+  8: $spacer * 12,
+) !default;
+// cards
+$card-border-color: none;
+$card-border-radius: 20px;
+$card-bg:white;
+$card-title-color:$black;
+.card-green{
+  color: white;
+  background: linear-gradient(26deg, #14573A 0.65%, #1B8354 97.7%);
+}
+
+
+// nav
+$navbar-nav-link-padding-x: .8rem !default;
+
+$headings-margin-bottom: $spacer * 1 !default;
+$line-height-base: 1.7 !default;
+$navbar-dark-color: white;
+// button raduis
+$button-raduis: 10px;
+$button-padding-x:30px;
+$button-padding-y:10px;
+
+$btn-border-radius: $button-raduis;
+$btn-border-radius-sm: $button-raduis;
+$btn-border-radius-lg: $button-raduis;
+
+$btn-padding-y: $button-padding-y;
+$btn-padding-x: $button-padding-x;
+$btn-padding-y-sm: $button-padding-y;
+$btn-padding-x-sm: $button-padding-x;
+$btn-padding-y-lg:$button-padding-y;
+$btn-padding-x-lg: $button-padding-x;
+$navbar-toggler-border-radius:5px;
+
+$navbar-light-color:#161616;
+$navbar-light-hover-color: $primary;
+$navbar-light-active-color: $primary;
+
+$navbar-nav-link-font-size: 1.2rem;
+// font size
+
+// Accordion
+
+$accordion-border-color:#EAEAEA;
+// up
+@import "../node_modules/bootstrap/scss/bootstrap";

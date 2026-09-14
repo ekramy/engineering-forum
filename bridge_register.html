@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="en" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+
+   
+    <title>Enginnering</title>
+</head>
+<body data-bs-spy="scroll" data-bs-target=".hackathon-nav" data-bs-offset="80" tabindex="0">
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-xl fixed-top bg-light">
+        <div class="container position-relative">
+
+            <a href="index.html" class="navbar-brand">
+                <img src="images/PSAU-Logo.svg" alt="">
+                <img src="images/EF-logo.svg" alt="">
+            </a>
+            <button class="navbar-toggler"
+            class="navbar-toggler" 
+            type="button" 
+            data-bs-toggle="collapse" 
+            data-bs-target="#navbarNavDropDown" 
+            aria-controls="navbarNavDropDown" 
+            aria-label="Toggle navigation"
+            >
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropDown">
+            <ul class="navbar-nav me-auto">
+                      <li class="nav-item">
+                    <a href="index.html#about" class="nav-link" aria-current="page">عن الملتقي</a>
+                </li>
+                      <li class="nav-item  dropdown position-static">
+                         <a href="#" class="nav-link dropdown-toggle" id="servicesDropdown"   data-bs-toggle="dropdown" aria-current="page">المسابقات</a>
+                        <div class="dropdown-menu w-100 border-0 rounded-0 shadow-sm bg-light" aria-labelledby="competitionsDropdown">
+                            <div class="container py-4 text-end">
+                            <div class="row g-5 align-items-center sub-menu-drop">
+                                <div class="col-md-12">
+                               
+                                <img src="images/h1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                                 <a href="hakaton.html" class="fw-bold fs-5 px-5 custom-btn">هاكاثون حلول البناء المستدام</a>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <img src="images/b1.jpg" class="img-fluid rounded shadow-sm" alt="">
+                                    <a href="bridge-design-competition.html" class="fw-bold fs-5 px-5 custom-btn">مسابقة تصميم الجسور</a>
+                                      
+                                </div>
+                            </div>
+                            </div>
+                           
+                        </div>
+                       
+                    </li>
+                </li>
+                      <li class="nav-item">
+                    <a href="emerging_technologies_txhibition.html" class="nav-link" aria-current="page">معرض التقنيات</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="events.html" class="nav-link" aria-current="page">الفعاليات</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#awards" class="nav-link" aria-current="page">الجوائز</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="index.html#faq" class="nav-link" aria-current="page">اسئلة شائعة</a>
+                </li>
+                      <li class="nav-item">
+                    <a href="contact.html" class="nav-link" aria-current="page">تواصل معنا</a>
+                </li>
+                <li class="nav-item d-flex justify-content-center align-items-lg-center"> 
+                    <img src="images/translate.svg" alt="">
+                    <a href="#"  class="nav-link">English</a>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </nav>
+    <!-- Main Hero-->
+     <section class="bridge-hero-section2 text-white d-flex align-items-center">
+  <div class="container text-end">
+    <h1 class="fw-bold mb-4 header-main lh-base"> التسجيل في <br>مسابقة تصميم الجسور </h1>
+  </div>
+
+</section>
+<section class="my-4">
+        <div class="marquee-container">
+        <div class="marquee-track">
+            <span>شارك بفكرتك… واصنع فرقًا حقيقيًا في عالم البناء.</span>
+            <span>شارك بفكرتك… واصنع فرقًا حقيقيًا في عالم البناء.</span>
+        </div>
+    </div>
+</section>
+<section id="register">
+    <div class="container">
+        <div class="card">
+            <!-- start -->
+
+  <div class="hackathon-card p-6">
+
+    <h3 class="hackathon-title text-primary fs-1 fw-bold text-center">التسجيل في مسابقة تصميم الجسور</h3>
+    <p class="hackathon-subtitle fs-3 fw-medium text-center">فريقك، فكرتك، إنجازك... شارك الآن!</p>
+
+    <div class="text-center mb-3 d-flex justify-content-between align-items-center">
+      <span class="text-dark me-2"><i class="bi bi-people"></i> الفريق الواحد يكون من 2 إلى 4 طلاب بحد أقصى</span><br>
+      <span class="text-dark mt-2"><i class="bi bi-bank"></i> لا يوجد حد أقصى لعدد الفرق المشاركة من كل جامعة</span>
+    </div>
+
+    <form class="row g-4"  dir="rtl">
+
+ 
+      <!-- اسم الجامعة -->
+      <div class="col-md-6">
+        <label class="form-label"> الجامعة <span class="text-danger">*</span></label>
+        <select class="form-select">
+          <option selected>اختر الجامعة السعودية</option>
+          <option>جامعة الملك سعود</option>
+          <option>جامعة الملك عبدالعزيز</option>
+        </select>
+      </div>
+  
+           <!-- اسم الفريق -->
+      <div class="col-md-6">
+        <label class="form-label">اسم الفريق <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" placeholder="اكتب اسم فريقك">
+      </div>
+
+      
+
+      <!-- بيانات أعضاء الفريق -->
+      <h6 class="mt-3 fw-bold text-secondary mt-5">بيانات أعضاء الفريق</h6>
+      <div class="col-md-3">
+        <label class="form-label">الاسم <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" placeholder="اكتب الاسم">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">التخصص</label>
+        <input type="text" class="form-control" placeholder="اكتب التخصص">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">البريد الإلكتروني</label>
+        <input type="email" class="form-control" placeholder="اكتب البريد الإلكتروني">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">رقم الجوال <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" placeholder="اكتب رقم الجوال">
+      </div>
+
+      <div class="col-12 text-end">
+        <button type="button" class="btn btn-outline-success btn-sm">
+          <i class="bi bi-person-plus"></i> أضف عضو للفريق
+        </button>
+      </div>
+
+      <!-- قائد الفريق -->
+      <h6 class="fw-bold text-secondary  mt-5">بيانات قائد الفريق</h6>
+      <div class="col-md-3">
+        <label class="form-label">الاسم <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" placeholder="اكتب الاسم">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">التخصص</label>
+        <input type="text" class="form-control" placeholder="اكتب التخصص">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">البريد الإلكتروني</label>
+        <input type="email" class="form-control" placeholder="اكتب البريد الإلكتروني">
+      </div>
+      <div class="col-md-3">
+        <label class="form-label">رقم الجوال <span class="text-danger">*</span></label>
+        <input type="text" class="form-control" placeholder="اكتب رقم الجوال">
+      </div>
+          <div class="col-12 text-end">
+        <button type="button" class="btn btn-outline-success btn-sm">
+          <i class="bi bi-person-plus"></i> أضف قائد للفريق
+        </button>
+      </div>
+
+
+
+
+      <!-- زر الإرسال -->
+      <div class="col-12 text-start mt-3">
+        <button type="submit" class="btn btn-success px-5 text-white rounded-2">إضافة فريق للهاكاثون</button>
+      </div>
+
+    </form>
+  </div>
+
+             <!-- End -->
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="py-6 " id="footer">
+    <div class="container text-white">
+      <div class="row m-0 g-3">
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">منصتي</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/psau-establishment" target="_blank">عن
+                الجامعة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/academic-calendar" target="_blank">التقويم
+                الأكاديمي</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/almnafsat-alhkwmyt" target="_blank">المنافسات
+                الحكومية</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/movables-platform" target="_blank">منصة
+                منقولات</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/alwthayq-altnzymyt-0" target="_blank">الوثائق
+                التنظيمية</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">روابط مهمة</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/relatedlinks" target="_blank">مواقع ذات
+                صلة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/introduction" target="_blank">البيانات
+                المفتوحة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/portal-policy" target="_blank">سياسة
+                البوابة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/terms-use-and-privacy-policy"
+                target="_blank">شروط الاستخدام وسياسة الخصوصية</a>
+            </li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">الاتصال والدعم</h5>
+          <ul class="list-unstyled mt-2">
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://tawasol.psau.edu.sa/" target="_blank">تواصل معنا</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://jobs.psau.edu.sa/" target="_blank">التوظيف</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/dlyl-aljamt" target="_blank">دليل الجامعة</a>
+            </li>
+            <li class="mb-2">
+              <a class="text-decoration-none" href="https://psau.edu.sa/ar/alasylt-alshayt" target="_blank">الأسئلة
+                الشائعة</a>
+            </li>
+          </ul>
+        </div>
+        <div class="followUs col-12 col-md-6 col-lg-3">
+          <h5 class="pb-2">تابعنا على</h5>
+          <ul class="list-unstyled mt-3 d-flex gap-2">
+            <li class="rounded">
+              <a href="https://www.facebook.com/PSAUuniversity" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-facebook"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.youtube.com/user/sauedusa" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-youtube"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.snapchat.com/add/psau.edu/uQCyv1YwRb6gtRaw8bkD8gAAgdGFtZWFyYW9jAZEIc6SFAZEIc6NjAAAAAA"
+                target="_blank" class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-snapchat"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://x.com/psau_edu_sa" target="_blank" class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-twitter-x"></i>
+              </a>
+            </li>
+            <li class="rounded">
+              <a href="https://www.instagram.com/psau_edu_sa/" target="_blank"
+                class="text-decoration-none py-1 px-2 d-block">
+                <i class="bi bi-instagram"></i>
+              </a>
+            </li>
+          </ul>
+          <div class="acceptability mt-5">
+            <h5 class="pb-2" data-translate="acceptabilityToolsTitle">أدوات الاتاحة والوصول</h5>
+            <ul class="list-unstyled mt-3 d-flex gap-2">
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-hand-index"></i>
+              </li>
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-zoom-in"></i>
+              </li>
+              <li class="rounded py-1 px-2 pointer-event">
+                <i class="bi bi-eye"></i>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row mt-5 gy-3">
+        <div class="col-12 col-md-6">
+          <ul class="list-unstyled d-flex gap-2 flex-wrap mb-3">
+            <li><a href="">خريطة الموقع</a></li>
+            <li><a href=""> RSS</a></li>
+          </ul>
+          <p class="bold fw-bold">جميع الحقوق محفوظة لجامعة الأمير سطام بن عبد العزيز © 2024</p>
+          <p class="small pt-2 pb-2"> تم تطويره وصيانته بواسطة [الإدارة العامة لتقنية المعلومات]</p>
+
+          <p class="small mt-3">تاريخ آخر تعديل:
+            <script>
+              const date = new Date();
+              const formattedDate =
+                `${String(date.getDate()).padStart(2, '0')}/${String(date.getMonth() + 1).padStart(2, '0')}/${date.getFullYear()}`;
+              document.write(formattedDate);
+            </script>
+          </p>
+        </div>
+        <div
+          class="logos col-12 col-md-6 d-flex gap-3 flex-wrap justify-content-center justify-content-md-end align-items-center">
+          <img src="images/2030-vision.svg" alt="رؤية 2030" class="" />
+          <img src="images/logo2.svg" alt="SVGLogo" />
+         </div>
+      </div>
+    </div>
+  </footer>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html> 

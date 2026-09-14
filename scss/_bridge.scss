@@ -1,0 +1,8 @@
+// main hero
+.bridge-hero-section {
+  background: linear-gradient(rgba(0, 30, 0, 0.55), rgba(0, 30, 0, 0.55)),
+              url(../images/bridge/bridge.png) 
+              center center / cover no-repeat;
+  height: calc(50vh);
+  position: relative;
+}
